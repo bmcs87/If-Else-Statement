@@ -1,0 +1,4 @@
+> if(sapply(list(as.Date(dataset$Start.Date.Of.User.Path, format="%d %B %Y")),is.Date)==TRUE){
+     print("yes")
+ } else { print("no")}
+# [1] "yes"
